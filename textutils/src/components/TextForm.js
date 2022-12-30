@@ -31,6 +31,17 @@ export default function TextForm(props) {
         settext(event.target.value);
     }
 
+    const handleCopy=()=>{
+        var text=document.getElementById("my-Box");
+        text.select();
+        navigator.clipboard.writeText(text.value);
+    }
+
+    const handleExtraSpaces=()=>{
+        let newText=text.split(/[ ]+/);
+        settext(newText.join(" "));
+    }
+
 
     const[text,settext]=useState("");
 
@@ -45,6 +56,8 @@ export default function TextForm(props) {
     <button className="btn btn-primary mx-1" onClick={handleLoClick}>Covert To Lowercase</button>
     <button className="btn btn-danger mx-1" onClick={handleOnClear}>CLear Text</button>
     <button className="btn btn-primary mx-1" onClick={speak}>Listen Your Text</button>
+    <button className="btn btn-primary mx-1" onClick={handleCopy}>Copy Text</button>
+    <button className="btn btn-primary mx-1" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
 
 
     </div>
