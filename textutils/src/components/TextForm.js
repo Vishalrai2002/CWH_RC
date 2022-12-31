@@ -7,17 +7,21 @@ export default function TextForm(props) {
         console.log("Upper Case Clicked" +text);
         let newText=text.toUpperCase();
         settext(newText);
+        props.showAlert("successfully converted to UpperCase!","success");
     }
 
     const handleLoClick=()=>{
         console.log("Lower Case Clicked"+text);
         let newText=text.toLowerCase();
         settext(newText);
+        props.showAlert("successfully converted to LowerCase!","success");
+
     }
 
     const handleOnClear=()=>{
         let newText='';
         settext(newText);
+        props.showAlert("Cleared successfully!","success")
     }
     
     const speak = () => {
@@ -35,6 +39,7 @@ export default function TextForm(props) {
         var text=document.getElementById("my-Box");
         text.select();
         navigator.clipboard.writeText(text.value);
+        props.showAlert("Text Copied","success")
     }
 
     const handleExtraSpaces=()=>{
