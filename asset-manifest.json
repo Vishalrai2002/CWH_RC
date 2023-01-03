@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/CWH_RC/tree/main/textutils/static/css/main.ea1455b2.chunk.css",
+    "main.js": "/CWH_RC/tree/main/textutils/static/js/main.47a49153.chunk.js",
+    "main.js.map": "/CWH_RC/tree/main/textutils/static/js/main.47a49153.chunk.js.map",
+    "runtime-main.js": "/CWH_RC/tree/main/textutils/static/js/runtime-main.8e57a132.js",
+    "runtime-main.js.map": "/CWH_RC/tree/main/textutils/static/js/runtime-main.8e57a132.js.map",
+    "static/js/2.795cd53b.chunk.js": "/CWH_RC/tree/main/textutils/static/js/2.795cd53b.chunk.js",
+    "static/js/2.795cd53b.chunk.js.map": "/CWH_RC/tree/main/textutils/static/js/2.795cd53b.chunk.js.map",
+    "static/js/3.21893436.chunk.js": "/CWH_RC/tree/main/textutils/static/js/3.21893436.chunk.js",
+    "static/js/3.21893436.chunk.js.map": "/CWH_RC/tree/main/textutils/static/js/3.21893436.chunk.js.map",
+    "index.html": "/CWH_RC/tree/main/textutils/index.html",
+    "static/css/main.ea1455b2.chunk.css.map": "/CWH_RC/tree/main/textutils/static/css/main.ea1455b2.chunk.css.map",
+    "static/js/2.795cd53b.chunk.js.LICENSE.txt": "/CWH_RC/tree/main/textutils/static/js/2.795cd53b.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/CWH_RC/tree/main/textutils/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e57a132.js",
+    "static/js/2.795cd53b.chunk.js",
+    "static/css/main.ea1455b2.chunk.css",
+    "static/js/main.47a49153.chunk.js"
+  ]
+}
